@@ -1,0 +1,42 @@
+{
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "semi": true,
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+  "proseWrap": "preserve",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 80
+      }
+    }
+  ],
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-packagejson"],
+  "importOrder": [
+    "^node:.*$",
+    "^express$",
+    "^@config/(.*)$",
+    "^@controllers/(.*)$",
+    "^@db/(.*)$",
+    "^@interfaces/(.*)$",
+    "^@middlewares/(.*)$",
+    "^@models/(.*)$",
+    "^@routes/(.*)$",
+    "^@services/(.*)$",
+    "^@adapters/(.*)$",
+    "^@validators/(.*)$",
+    "^@utils/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderGroupNamespaceSpecifiers": true
+}
