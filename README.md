@@ -3,8 +3,8 @@
 ### **1️⃣ Clone the Repository**
 
 ```sh
-git clone https://github.com/
-cd music-api
+git clone https://github.com/ValentinBond/yozmatech--test-server
+cd filename
 ```
 
 ### **2️⃣ Install Dependencies**
